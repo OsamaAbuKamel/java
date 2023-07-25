@@ -1,0 +1,3 @@
+1234567 20 123@bethlehem@westbank M osama@osama@osama 
+SCIENCE 45
+OOP COMP2311 osama@osama@osama 45
