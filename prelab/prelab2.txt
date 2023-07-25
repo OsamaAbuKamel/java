@@ -1,0 +1,33 @@
+1.What keyword do you use to define a subclass?
+2.Does Java support multiple inheritance?
+3.How do you invoke an overridden superclass method from a subclass?
+4.If a method in a subclass has the same signature as a method in its superclass with
+the same return type, is the method overridden or overloaded?
+5.Indicate true or false for the following statements:
+(a) When invoking a constructor from a subclass, its superclass's no-arg constructor is always invoked.
+(b) You can override a private method defined in a superclass.
+(c) You can always successfully cast an instance of a subclass to a superclass.
+(d) You can always successfully cast an instance of a superclass to a subclass.
+6.What modifier should you use on a class so a class in the same package can access
+it, but a class in a different package cannot access it?
+7.What modifier should you use so a class in a different package cannot access the
+class, but its subclasses in any package can access it?
+8.How do you prevent a class from being extended? How do you prevent a method
+from being overridden?
+
+1.extends 
+2.NO
+3.
+4.overridden
+5.a-false
+b-false
+c-true
+d-false
+6.Default
+7.Protected
+8.public final class A {
+ // Data fields, constructors, and methods omitted
+}
+public final void m() {
+ // Do something
+ }
