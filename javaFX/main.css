@@ -1,0 +1,8 @@
+.button {
+    -fx-background-color: aqua;
+}
+
+#btn {
+    -fx-font-size: large;
+    /* -fx-background-color: red; */
+}
