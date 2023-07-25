@@ -1,0 +1,92 @@
+.menu-bar {
+    -fx-min-height: 30px;
+}
+.menu{
+    -fx-font-size: 5px;
+    -fx-min-height: 25px;
+}
+.tab {
+    -fx-rotate: 90;
+    -fx-padding: 0 10 0 10;
+    -fx-background-color: transparent;
+    -fx-font-family: Arial, sans-serif;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+}
+
+#text {
+    -fx-font-family: Arial, sans-serif;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+    -fx-font-style: italic;
+    -fx-pref-width: 460px;
+    -fx-opacity: 0.8;
+    -fx-background-color: white;
+    -fx-scale-x: 1;
+    -fx-scale-y: 1;
+    -fx-effect: dropshadow(gaussian, rgb(230, 227, 227), 2, 1.0, 1.0, 2);
+}
+
+.button {
+    -fx-pref-width: 100px;
+    -fx-pref-height: 40px;
+    -fx-border-color: #315cfd;
+    -fx-border-radius: 20px;
+    -fx-background-radius: 20px;
+    -fx-border-style: solid;
+    -fx-transition: all 0.3s;
+    -fx-cursor: pointer;
+    -fx-background-color: white;
+    -fx-font-size: 1.2em;
+    /* -fx-font-weight:/ 550; */
+    -fx-font-family: 'Montserrat', sans-serif;
+}
+
+.button:hover {
+    -fx-background-color: #6f89e9;
+    -fx-font-size: 1.5em;
+}
+
+#sort {
+    -fx-pref-width: 600px;
+    -fx-border-radius: 0px;
+    -fx-background-radius: 0px;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.label {
+    -fx-position: absolute;
+    -fx-top: 0;
+    -fx-left: 0;
+    -fx-font-size: 16px;
+    -fx-color: rgba(204, 204, 204, 0);
+    -fx-pointer-events: none;
+    -fx-transition: all 0.3s ease;
+}
+
+.text-field {
+    -fx-pref-width: 180px;
+    -fx-border-radius: none;
+    -fx-outline: none;
+    -fx-background-radius: 20px;
+    -fx-padding: 1em;
+    -fx-background-color: #ccc;
+    -fx-box-shadow: inset 2px 5px 10px rgba(0, 0, 0, 0.3);
+    -fx-transition: 300ms ease-in-out;
+}
+
+.text-field:focused {
+    -fx-background-color: white;
+    -fx-scale-x: 1;
+    -fx-scale-y: 1;
+    -fx-effect: dropshadow(gaussian, rgb(230, 227, 227), 2, 1.0, 1.0, 2);
+}
+
+#labelMain {
+    -fx-text-fill: #6f89e9;
+    -fx-font-size: 20px;
+    -fx-font-weight: lighter;
+    -fx-font-family: Arial, Helvetica, sans-serif;
+}
